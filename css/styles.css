@@ -163,9 +163,10 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
 a:hover {
   color: rgb(0, 39, 64);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -10090,8 +10091,8 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #fff;
+  color: rgb(0, 45, 60);
+  background-color: rgb(235, 240, 255);
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -10100,7 +10101,9 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: rgb(56, 189, 93);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 45, 60);
+  border: none;
 }
 
 .dev-icons {
@@ -10141,27 +10144,41 @@ section.resume-section .resume-section-content {
 }
 
 .apellido {
-  color: rgb(0, 72, 36);
+  color: rgb(0, 72, 72);
+}
+
+.grado {
+  color: rgb(78, 87, 96)
 }
 
 .mail {
-  color: rgb(36, 75, 60);
+  color: rgb(36, 75, 75);
 }
 
 .fechas {
-  color: rgb(36, 105, 84);
+  color: rgb(36, 105, 105);
   font: bold;
 }
 
+.proyecto {
+  border: 1px solid rgb(0, 45, 60);
+  margin: 12px;
+}
+
 .el-portfolio {
-  padding: 2px;
+  padding: 12px;
   margin: 1px;
 }
 .titulo-juego {
-  background-color: rgb(0, 24, 52);
-  color: rgb(203, 231, 255);
+  color: rgb(0, 24, 52);
+  margin-left: 8px;
 }
 
 .bajada-juego {
   color: rgb(0, 24, 52);
+  padding: 4px;
+}
+
+.intereses {
+  text-align: justify;
 }
